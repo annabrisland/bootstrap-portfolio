@@ -6,20 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Anna // Web Developer</title>
     <!-- Link Bootstrap -->
-    <!-- <link
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
-    /> -->
+    />
     <!-- Link custom styles -->
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <!-- Main Logo and Nav -->
     <section>
-      <nav class="navbar" id="mainNav">
-        <div class="container">
+      <nav class="navbar navbar-expand-lg" id="mainNav">
+        <div class="container-fluid">
           <a class="" href="#"><h1>Anna Brisland</h1></a>
           <div>
             <ul class="navbar-nav">
@@ -42,8 +42,8 @@
     </section>
 
     <!-- Hero section -->
-    <section id="hero">
-      <div class="container">
+    <section class="content-section" id="hero">
+      <div class="container-fluid">
         <div class="row">
           <div>
             <h2>Web Designer & Developer</h2>
@@ -54,72 +54,76 @@
 
     <section id="content">
       <!-- About Me section -->
-      <section id="about-me">
-        <div>
-          <div>
-            <h2>About Me</h2>
-          </div>
-          <div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              quasi ex quaerat, itaque reprehenderit non laborum dolores
-              eligendi similique architecto sit iste dolorum. Maxime doloremque
-              enim voluptatem at molestiae distinctio!
-            </p>
+      <section class="content-section" id="about-me">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-2">
+              <h2>About Me</h2>
+            </div>
+            <div class="col-10">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Incidunt quasi ex quaerat, itaque reprehenderit non laborum
+                dolores eligendi similique architecto sit iste dolorum. Maxime
+                doloremque enim voluptatem at molestiae distinctio!
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
       <!-- Work section -->
-      <section id="work">
-        <div>
-            <div>
-                <h2>Work</h2>
+      <section class="content-section" id="work">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-2">
+              <h2>Work</h2>
             </div>
-            <div>
-                <div class="project" id="main-project">
-                    Main Project
-                </div>
-                <div class="project secondary-project">
-                    Project 1
-                </div>
-                <div class="project secondary-project">
-                    Project 2
-                </div>
-                <div class="project secondary-project">
-                    Project 3
-                </div>
-                <div class="project secondary-project">
-                    Project 4
-                </div>
+            <div class="col-10 container-fluid">
+              <div class="row">
+                <div class="col-12 project" id="main-project">Main Project</div>
+              </div>
+              <div class="row">
+                <div class="col-6 project secondary-project">Project 1</div>
+                <div class="col-6 project secondary-project">Project 2</div>
+              </div>
+              <div class="row">
+                <div class="col-6 project secondary-project">Project 3</div>
+                <div class="col-6 project secondary-project">Project 4</div>
+              </div>
             </div>
+          </div>
         </div>
       </section>
 
       <!-- Skills section -->
-      <section id="skills">
-        <div>
-            <div>
-                <h2>Skills</h2>
+      <section class="content-section" id="skills">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-2">
+              <h2>Skills</h2>
             </div>
-            <div>
-                <!-- Insert skills layout here -->
-            </div> 
+            <div class="col-10">
+              <!-- Insert skills layout here -->
+            </div>
+          </div>
         </div>
       </section>
 
-      <section id="contact-me">
-        <div>
-            <div>
-                <h2>Contact Me</h2>
+      <section class="content-section" id="contact-me">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-2">
+              <h2>Contact Me</h2>
             </div>
-            <div>
-                <a href="">Email</a>
-                <a href="">Email</a>
-                <a href="">Email</a>
-                <a href="">Email</a>
+            <div class="col-10 row">
+              <a class="col-3" href="">Phone</a>
+              <a class="col-3" href="">Email</a>
+              <a class="col-3" href="">GitHub</a>
+              <a class="col-3" href="">Linked In</a>
             </div>
-        </div>  
+          </div>
+        </div>
       </section>
     </section>
   </body>
