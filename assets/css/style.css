@@ -2,12 +2,21 @@
     border: red solid 2px;
 } */
 
+h1 {
+    font-size: calc(2rem + 1.5vw);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .subheading {
     text-align: right;
 }
 
 .content-section {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .content-block {
@@ -18,13 +27,58 @@
     margin-bottom: 10px;
     margin-left: 10px;
     border-radius: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
 }
 
 .cardContainer {
     padding: 0;
 }
 
+.contact-item {
+    text-align: center;
+}
+
+.contact-link {
+    border-bottom: solid black 3px;
+    padding: 10px;
+}
+
+.contact-link:hover {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+}
+
 #content {
     width: 75%;
     margin: auto;
+}
+
+#main-project {
+    background-image: url("../images/horiseon.jpg");
+    height: 450px;
+}
+
+#secondary-project1 {
+    background-image: url("../images/LabbyIntro.png");
+    height: 225px;
+}
+
+#secondary-project2 {
+    background-image: url("../images/Umami.png");
+    height: 225px;
+}
+
+#secondary-project3 {
+    background-image: url("../images/BotanyIntro.png");
+    height: 225px;
+}
+
+#secondary-project4 {
+    background-image: url("../images/KudoCoin.png");
+    height: 225px;
 }
