@@ -42,10 +42,24 @@ nav {
     background-position: center;
     background-size: cover;
     border: none;
+    color: transparent;
+}
+
+.card:hover {
+    background-image: none !important;
+    background-color: black;
+    color: white;
 }
 
 .cardContainer {
     padding: 0;
+}
+
+.card-body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .contact-item {
@@ -62,11 +76,17 @@ nav {
     background-color: black;
     color: white;
     padding: 12px 20px;
+    box-shadow: 5px 5px gray;
 }
 
 .skill-block {
     text-align: center;
     padding: 20px 0;
+}
+
+.contact-block {
+    height: 100%;
+    align-content: center;
 }
 
 #content {
