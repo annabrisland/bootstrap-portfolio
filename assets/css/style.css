@@ -31,6 +31,10 @@ nav {
     padding: 20px;
 }
 
+.section-header {
+    padding-right: 20px;
+}
+
 .card {
     margin-bottom: 10px;
     margin-left: 10px;
@@ -61,6 +65,7 @@ nav {
 
 .contact-item {
     text-align: center;
+    padding-bottom: 40px;
 }
 
 .contact-link {
@@ -73,7 +78,7 @@ nav {
     background-color: black;
     color: white;
     padding: 12px 20px;
-    box-shadow: 5px 5px gray;
+    box-shadow: 5px 5px #ffde34;
 }
 
 .skill-block {
@@ -92,7 +97,7 @@ nav {
 }
 
 #hero-text {
-    padding: 20px 50px;
+    padding-left: 50px;
     display: flex;
     align-items: center;
 }
@@ -129,4 +134,40 @@ nav {
 #secondary-project4 {
     background-image: url("../images/KudoCoin.png");
     height: 225px;
+}
+
+@media only screen and (max-width: 992px) {
+    #hero-text {
+        padding: 40px 10px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .nav-title {
+        justify-content: center !important;
+        margin-right: 0 !important;
+    }
+
+    .subheading {
+        text-align: center;
+    }
+
+    .content-block {
+        border-left: none;
+        border-top: solid black 5px;
+        padding: 20px;
+    }
+    
+    .section-header {
+        padding-right: 20px;
+    }
+
+    #portrait {
+        display: flex;
+        justify-content: center;
+    }
+
+    #hero-text {
+        text-align: center;
+    }
 }
